@@ -1,0 +1,26 @@
+body{
+    background-color: #cde;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: rgb(5, 112, 155);
+    color: rgb(240, 255, 221);
+    text-align: center;
+    padding: 20px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+figure, figure img{
+    width: 385px;
+    height: 432px;
+}
+#img1 {
+    background-image: url('../cachorro2.jpg');
+}
+
+#img1:hover{
+    background-image: url('../cachorro1.jpg');
+}
